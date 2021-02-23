@@ -41,6 +41,10 @@
   align-items: center;
 }
 
+.div2{
+  background-color: green;
+}
+
 .h1Size
 {
   font-size: 600%;
@@ -53,19 +57,35 @@
 {
   line-height: normal;
 }
-.font-face {
+.font-face1 {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 300;
   src: url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format('woff2');
 }
 
+.font-face2 {
+  font-family: 'YT Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/ytsans/v10/46kqlb3ta3zqoJU2dfPhb0xg0mlY.woff2) format('woff2');
+}
+
+.font-face3{ 
+  src: url(https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap);
+}
+
+.letraColor{
+  color: darkblue;
+}
+
+/*Estilo del menú*/
 * {
   margin:0px;
   padding:0px;
 }
 
-#header {
+.header {
   margin:auto;
   vertical-align:middle;
   display: table;
@@ -110,3 +130,4 @@ ul, ol {
   right:-140px;
   top:0px;
 }
+
