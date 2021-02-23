@@ -1,0 +1,112 @@
+.body-general 
+{
+  background: rgb(222, 241, 248);
+  margin: 0;
+}
+.body-lol
+{
+  background: white;
+  margin: 0;
+}
+.alineadoTextoImagenArriba
+{
+  vertical-align: text-top;  
+}
+
+.alineadoTextoImagenCentro
+{
+  vertical-align: middle;
+   /* Ojo vertical-align: text-middle no existe*/
+}
+.alineadoCentro
+{
+  text-align: center;
+}
+
+.alineadoDerecha{
+  text-align: right;
+}
+
+.alineadoIzquierda{
+  text-align: left;
+}
+
+.imgAlign
+{
+  float: center;
+}
+
+.div
+{
+  align-items: center;
+}
+
+.h1Size
+{
+  font-size: 600%;
+}
+.interlineado{
+  line-height: 100%;
+}
+
+.pFontLittle
+{
+  line-height: normal;
+}
+.font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format('woff2');
+}
+
+* {
+  margin:0px;
+  padding:0px;
+}
+
+#header {
+  margin:auto;
+  vertical-align:middle;
+  display: table;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+ul, ol {
+  list-style:none;
+}
+
+.nav > li {
+  float:left;
+}
+
+.nav li a {
+  background-color:#000;
+  color:#fff;
+  text-decoration:none;
+  padding:10px 12px;
+  display:block;
+}
+
+.nav li a:hover {
+  background-color:#434343;
+}
+
+.nav li ul {
+  display:none;
+  position:absolute;
+  min-width:140px;
+}
+
+.nav li:hover > ul {
+  display:block;
+}
+
+.nav li ul li {
+  position:relative;
+}
+
+.nav li ul li ul {
+  right:-140px;
+  top:0px;
+}
