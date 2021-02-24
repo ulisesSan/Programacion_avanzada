@@ -108,6 +108,14 @@ ul, ol {
   display:block;
 }
 
+.parrafo{
+  background-color:#000;
+  color:#fff;
+  text-decoration:none;
+  padding:10px 12px;
+  display:block;
+}
+
 .nav li a:hover {
   background-color:#434343;
 }

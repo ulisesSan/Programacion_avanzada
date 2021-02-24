@@ -7,26 +7,30 @@
         <meta name="author" content ="Ulises Santiago Caceres Licona"/>
         <link rel="stylesheet" type="text/css" href="src/css/style.css" media="screen" />
         <link rel="shortcut icon" href="src/images/ulises.ico"/>
+		<script type="text/javascript" src="src/script/script.js"></script>
     </head>
-    <body class="body-general">
+    <body class="body-general" onload="HORA()">
+		
 		<!--Cabecera-->
         <div align="header">
             <iframe src="src/head.html" width="1330" height="180" frameborder ="0" id="header"></iframe>
         </div>
+		<p>Hora: <a id="reloj" aria-setsize="200px"></a></p>
 		<!--Menú dinamico-->
         <div class="header" >
+			
 			<ul class="nav">
 				<li><a href="src/center.html" target ="centro">Inicio</a></li>
-				<li><a href="">Tareas</a>
+				<li><p class="parrafo">Tareas</p>
 					<ul>
-						<li><a href="">Tarea 1</a></li>
+						<li><a href="src/Doc_PDF/T4CaceresLUS.docx" target="centro">Tarea 1</a></li>
 						<li><a href="">Submenu2</a></li>
 						<li><a href="">Submenu3</a></li>
 						<li><a href="">Submenu4</a>
 						</li>
 					</ul>
 				</li>
-				<li><a href="">Practicas</a>
+				<li><p class="parrafo">Practicas</p>
 					<ul>
 						<li><a href="">Parctica 1</a></li>
 						<li><a href="">Submenu2</a></li>
@@ -39,9 +43,15 @@
 		</div>
 		<!--Cuerpo-->
         <div align="left">
-            <iframe src ="src/left.html" width="200" height="500" frameborder="0" id="left"></iframe>
+            <iframe src ="src/left.html" width="200" height="500" frameborder="0" id="left">
+				
+			</iframe>
             
             <iframe src="src/center.html"width="1128" height="500" frameborder="0" name="centro" id="center" ></iframe>
         </div>
+		<!--Derechos de author-->
+		<div id="copyright" class="nav" class="div">
+			Copyright&copy; 2021 - Página creada por Gamita - Todos los derechos reservados
+		</div>
     </body>
 </html>
