@@ -17,15 +17,9 @@ const HORA = () => {
         minutos = DATE.getMinutes();
         segundos = DATE.getSeconds();
   
-        // Determinar el meridiano
-        meridiano = hora < 12 ? "am" : "pm";
-  
-        // Dar formato de 12 horas ya que por defecto el formato es de 24 horas
-        hora = hora == 0 ? 12 : hora || hora > 12 ? hora -= 12 : hora;
-  
         return (
             ID_ELEMENT.textContent =
-            `${CERO(hora)}:${CERO(minutos)}:${CERO(segundos)} ${meridiano}`
+            `${CERO(hora)}:${CERO(minutos)}:${CERO(segundos)}`
         );
     }
   
