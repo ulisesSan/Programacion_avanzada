@@ -4,6 +4,7 @@
         <title>Conexion</title>
     </head>
     <body>
+    <button onclick="location.href='index.html'">Regresar</button>
         <h1>
             <?php
             $mysqli = new mysqli("localhost", "root", "", "mysql");
@@ -18,10 +19,12 @@
                 echo "Fallo al conectar a MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
             }
             echo $mysqli->host_info . "\n";
-
+            
             phpinfo();
             ?>
             
 </h1>
+
+
     </body>
 </html>
