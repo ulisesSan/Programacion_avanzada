@@ -1,0 +1,40 @@
+
+body{
+    background-size: 100%;
+    background-image: url("Imagenes/tortuga.webp");
+}
+.h1{
+    text-align: center;
+    color: azure
+}
+
+.button-cancel{
+    color: red;
+}
+
+.button-acept{
+    color: green;
+}
+
+.div-color{
+    background-color: gray;
+    opacity: 0.5;
+}
+
+nav{
+    display: block;
+}
+
+.div-align{
+    justify-content: center;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside{
+    width: 120px;
+}
