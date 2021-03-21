@@ -87,13 +87,14 @@
 
 .header {
   margin:auto;
-  vertical-align:middle;
+  vertical-align:center;
   display: table;
   font-family:Arial, Helvetica, sans-serif;
 }
 
 ul, ol {
   list-style:none;
+  
 }
 
 .nav > li {
@@ -101,23 +102,26 @@ ul, ol {
 }
 
 .nav li a {
-  background-color:#000;
+  background-color:rgb(75, 122, 43);
   color:#fff;
   text-decoration:none;
   padding:10px 12px;
   display:block;
+  border-radius: 15px;
 }
 
 .parrafo{
-  background-color:#000;
+  background-color:rgb(75, 122, 43);
   color:#fff;
   text-decoration:none;
   padding:10px 12px;
   display:block;
+  border-radius: 15px;
 }
 
 .nav li a:hover {
   background-color:#434343;
+  border-radius: 15px;
 }
 
 .nav li ul {
@@ -139,3 +143,6 @@ ul, ol {
   top:0px;
 }
 
+.img{
+  border-radius:500px;
+}

@@ -35,6 +35,10 @@ nav{
     align-items: center;
 }
 
-.inside{
-    width: 120px;
+.parrafo-hora{
+    float: middle;
+  }
+
+.img{
+    border-radius: 15px;
 }
