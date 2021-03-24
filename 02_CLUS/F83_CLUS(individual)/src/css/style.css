@@ -146,3 +146,12 @@ ul, ol {
 .img{
   border-radius:500px;
 }
+
+.parrafoTime{
+  background-color:rgb(181, 158, 211);
+  color:#fff;
+  text-decoration:none;
+  padding:10px 12px;
+  display:block;
+  border-radius: 15px;
+}

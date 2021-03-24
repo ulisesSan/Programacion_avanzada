@@ -20,7 +20,7 @@ const HORA = () => {
         dia= DATE.getDate();
         mes=DATE.getMonth() +1;
         año=DATE.getFullYear();
-  
+        console.log()
         return (
             ID_ELEMENT.textContent =
             `${CERO(hora)}:${CERO(minutos)}:${CERO(segundos)+ " " +"Fecha: "+ dia +"/" + mes +"/" + año}`
@@ -31,6 +31,3 @@ const HORA = () => {
     // para que se vaya actualizando la hora
     return setInterval(RELOJ, 1000);
 }
-
-  
- 
