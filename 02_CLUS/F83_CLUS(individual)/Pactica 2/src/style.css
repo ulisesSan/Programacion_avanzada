@@ -26,7 +26,7 @@ nav{
 }
 
 .div-align{
-    justify-content: center;
+    justify-content: right;
 }
 
 .container{
@@ -35,10 +35,6 @@ nav{
     align-items: center;
 }
 
-.parrafo-hora{
-    float: middle;
-  }
-
-.img{
-    border-radius: 15px;
+.parrafo-2{
+    color: beige;
 }
