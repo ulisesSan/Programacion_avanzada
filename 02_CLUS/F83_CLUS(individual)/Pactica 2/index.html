@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
         <title>Super tortugas ninja</title>
         <link rel="stylesheet" type="text/css" href="src/style.css"  media="screen"/>
+        <script type="text/javascript" src="src/Codigo JS/codigo02.js"></script>
     </head>
     <body>
         <div class="div-color">
@@ -10,20 +12,20 @@
         </div>
 
         <div>
-            <form>
-                <p class="parrafo-2"><input type="checkbox"> salchiflas 
-                <input type="number" min="0" size="10px" maxlength="2" value="1" id="torta1"> $45.00</p>
-                <p class="parrafo-2"><input type="checkbox"> salchiflas 
-                <input type="number" min="0" size="10" maxlength="2" value="1"> $45.00</p>
-                <p class="parrafo-2"><input type="checkbox"> salchiflas 
-                <input type="number" min="0" size="10" maxlength="2" value="1"> $45.00</p>
-                <p class="parrafo-2"><input type="checkbox"> salchiflas 
-                <input type="number" min="0" size="10" maxlength="2" value="1"> $45.00</p>
-                <button onclick="obtVar()">aceptar</button>
+            <form name="menuTortas">
+                <p class="parrafo-2"> Huevo
+                <input style="width: 30px; height: 12px;"type="number" min="0" size="10px" maxlength="2" value="0" id="huevo"> $45.00</p>
+                <p class="parrafo-2"> Jamón
+                <input style="width: 30px; height: 12px;" type="number" min="0" size="10" maxlength="2" value="0" id="jamon"> $45.00</p>
+                <p class="parrafo-2"> Milaneza
+                <input style="width: 30px; height: 12px;" type="number" min="0" size="10" maxlength="2" value="0" id="milaneza"> $45.00</p>
+                <p class="parrafo-2"> Pollo
+                <input style="width: 30px; height: 12px;" type="number" min="0" size="10" maxlength="2" value="0" id="pollo"> $45.00</p>
+                <button type="button" onclick="obtVar()">aceptar</button>
             </form>
 
-            <iframe frameborder="0" name="cosas"></iframe>
-            
+            <form name="bebidas"></form>
+            <p class="parrafo-2" id="precio"></p>
         </div>
     </body>
 </html>
