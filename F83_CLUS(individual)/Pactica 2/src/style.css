@@ -1,0 +1,51 @@
+
+body{
+    background-size: 100%;
+    background-image: url("Imagenes/tortuga.webp");
+}
+.h1{
+    text-align: center;
+    color: azure
+}
+
+.button-cancel{
+    color: red;
+}
+
+.button-acept{
+    color: green;
+}
+
+.div-color{
+    background-color: gray;
+    opacity: 0.5;
+}
+
+nav{
+    display: block;
+}
+
+.div-align{
+    justify-content: right;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parrafo-2{
+    color: beige;
+}
+
+.div{
+    box-sizing: content-box;
+width: 100%;
+border: solid #5B6DCD 20px;
+padding: 5px;background-color: red;
+}
+.caja1{
+    width: 30px; 
+    height: 12px;
+}

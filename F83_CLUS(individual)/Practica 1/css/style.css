@@ -1,0 +1,158 @@
+.body-general 
+{
+  background: rgb(222, 241, 248);
+  margin: 0;
+}
+.body-lol
+{
+  background: white;
+  margin: 0;
+}
+.alineadoTextoImagenArriba
+{
+  vertical-align: text-top;  
+}
+
+.alineadoTextoImagenCentro
+{
+  vertical-align: middle;
+   /* Ojo vertical-align: text-middle no existe*/
+}
+.alineadoCentro
+{
+  text-align: center;
+}
+
+.alineadoDerecha{
+  text-align: right;
+}
+
+.alineadoIzquierda{
+  text-align: left;
+}
+
+.imgAlign
+{
+  float: center;
+}
+
+.div
+{
+  align-items: center;
+}
+
+.div2{
+  background-color: green;
+}
+
+.h1Size
+{
+  font-size: 600%;
+}
+.interlineado{
+  line-height: 100%;
+}
+
+.pFontLittle
+{
+  line-height: normal;
+}
+.font-face1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format('woff2');
+}
+
+.font-face2 {
+  font-family: 'YT Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/ytsans/v10/46kqlb3ta3zqoJU2dfPhb0xg0mlY.woff2) format('woff2');
+}
+
+.font-face3{ 
+  src: url(https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap);
+}
+
+.letraColor{
+  color: darkblue;
+}
+
+/*Estilo del menú*/
+* {
+  margin:0px;
+  padding:0px;
+}
+
+.header {
+  margin:auto;
+  vertical-align:center;
+  display: table;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+ul, ol {
+  list-style:none;
+  
+}
+
+.nav > li {
+  float:left;
+}
+
+.nav li a {
+  background-color:rgb(75, 122, 43);
+  color:#fff;
+  text-decoration:none;
+  padding:10px 12px;
+  display:block;
+  border-radius: 15px;
+}
+
+.parrafo{
+  background-color:rgb(75, 122, 43);
+  color:#fff;
+  text-decoration:none;
+  padding:10px 12px;
+  display:block;
+  border-radius: 15px;
+}
+
+.nav li a:hover {
+  background-color:#434343;
+  border-radius: 15px;
+}
+
+.nav li ul {
+  display:none;
+  position:absolute;
+  min-width:140px;
+}
+
+.nav li:hover > ul {
+  display:block;
+}
+
+.nav li ul li {
+  position:relative;
+}
+
+.nav li ul li ul {
+  right:-140px;
+  top:0px;
+}
+
+.img{
+  border-radius:500px;
+}
+
+.parrafosTime{
+  background-color:rgb(181, 158, 211);
+  color:#fff;
+  text-decoration:none;
+  padding:10px 12px;
+  display:block;
+  border-radius: 15px;
+  float: left;
+}
