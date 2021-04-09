@@ -1,6 +1,5 @@
 <?php
 
-<<<<<<< HEAD
 $hora=idate("h");
 $minutos = idate("i");
 $segundos = idate("s");
@@ -22,9 +21,7 @@ for($i=0;$i<=60;$i++){
     echo ($minutos);
     echo (":");
     echo ($segundos++);
-    sleep(3);
-    ncurses_clear ( );  
+    usleep(3000);
+    
 }
-=======
->>>>>>> main
 ?>
