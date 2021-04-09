@@ -17,11 +17,9 @@ for($i=0;$i<=60;$i++){
     }
 
     $i++;
-    echo ($hora);
-    echo ($minutos);
-    echo (":");
-    echo ($segundos++);
-    usleep(3000);
+    $tiempo = $hora.":".$minutos.":".$segundos;
+    echo($tiempo);
+    usleep(13000);
     
 }
 ?>
