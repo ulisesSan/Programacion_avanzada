@@ -1,16 +1,12 @@
-.body-general 
+.body-general
 {
   background: rgb(222, 241, 248);
   margin: 0;
 }
-.body-lol
+
+  .alineadoTextoImagenArriba
 {
-  background: white;
-  margin: 0;
-}
-.alineadoTextoImagenArriba
-{
-  vertical-align: text-top;  
+  vertical-align: text-top;
 }
 
 .alineadoTextoImagenCentro
@@ -71,7 +67,7 @@
   src: url(https://fonts.gstatic.com/s/ytsans/v10/46kqlb3ta3zqoJU2dfPhb0xg0mlY.woff2) format('woff2');
 }
 
-.font-face3{ 
+.font-face3{
   src: url(https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap);
 }
 
@@ -94,7 +90,7 @@
 
 ul, ol {
   list-style:none;
-  
+
 }
 
 .nav > li {
