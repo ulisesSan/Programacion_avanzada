@@ -10,3 +10,4 @@ else{
     echo("<h1>Ha fallado la desconexion de la base de datos</h1>");
 }
 ?>
+<button onclick="location.href='index.php'">Regresar</button>

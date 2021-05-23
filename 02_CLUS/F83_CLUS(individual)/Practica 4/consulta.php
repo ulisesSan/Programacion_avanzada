@@ -15,7 +15,7 @@ include ("Source/PHP/conexion.php")
         </tr>
         <tbody>
             <?php
-            $consulta = "select * from pedidos";
+            $consulta = "call pedidos";
             $resultado = mysqli_query($connector,$consulta);
             while($tab = mysqli_fetch_array($resultado)){?>
                 <tr>
@@ -28,5 +28,6 @@ include ("Source/PHP/conexion.php")
         </tbody>
     </thead>
 </table>
+<button onclick="location.href='index.php'">Regresar</button>
 </body>
 </html>
