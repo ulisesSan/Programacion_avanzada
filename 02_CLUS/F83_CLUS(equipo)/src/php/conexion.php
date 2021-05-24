@@ -5,5 +5,5 @@ $connector = mysqli_connect(
     '1234',
     'f84_15'
 );
-echo ("estoy dentro");
+
 ?>

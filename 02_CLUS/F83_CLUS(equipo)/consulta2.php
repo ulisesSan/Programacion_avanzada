@@ -21,25 +21,24 @@ include ("src/php/conexion.php");
       </style>
 </head>
 <body>
-    
     <table class="table table-bordered">
         <thead>
             <tr>
-                <th>Id provedor</th>
-                <th>Id Nombre</th>
-                <th>Descripcion</th>
-                <th>rfc</th>
+                <th>Id Pedido</th>
+                <th>Producto</th>
+                <th>Provedor</th>
+                <th>Cantidad Pedido</th>
             </tr>
             <tbody>
                 <?php
-                    $consulta = "select * from provedor";
+                    $consulta = "select distinct pedidos.id_pedido, productos.nombre as producto, provedor.nombre as provedor, pedidos.cantidad_pedido from pedidos, productos, provedor where   provedor.id_provedor = productos.id_provedor and productos.id_prod = pedidos.id_producto order by pedidos.cantidad_pedido asc;;";
                     $resultado = mysqli_query($connector,$consulta);
                     while($tab = mysqli_fetch_array($resultado)){?>
                     <tr>
-                        <td><?php echo $tab['id_provedor']; ?></td>
-                        <td><?php echo $tab['nombre']; ?></td>
-                        <td><?php echo $tab['descripcion']; ?></td>
-                        <td><?php echo $tab['rfc']; ?></td>
+                        <td><?php echo $tab['id_pedido']; ?></td>
+                        <td><?php echo $tab['producto']; ?></td>
+                        <td><?php echo $tab['provedor']; ?></td>
+                        <td><?php echo $tab['cantidad_pedido']; ?></td>
                     </tr>            
                 <?php } ?>
             </tbody>
