@@ -15,7 +15,7 @@ include ("Source/PHP/conexion.php")
         </tr>
         <tbody>
             <?php
-            $consulta = "call pedidos";
+            $consulta = "select * from pedidos";
             $resultado = mysqli_query($connector,$consulta);
             while($tab = mysqli_fetch_array($resultado)){?>
                 <tr>
