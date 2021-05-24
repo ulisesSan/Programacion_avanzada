@@ -1,32 +1,24 @@
 <?php 
-//utilizar la ñ 
 header('Content-Type: text/html; charset=UTF-8');
-//se leen los datos por el metodo post enviados por las cajas de texto en html
  $EntradaA = $_POST['tiempo'];
  $Entradatexto = $_POST['Mes'];
  
- //convertir todos los caracteres en mayuscula para comparar 
  $Entradatexto2 = strtoupper($Entradatexto);
 
- //swicth para la comparacion y operaciones para mayor exactitud del mes
 switch ($Entradatexto2) {
 
-    //solo voy a documentar un mes ya que es lo mismo para todos 
     case 'ENERO':
-        //valor por mes
         $EntradaM=1;
 
         
         $Resultado = 0;
-//se lee el mes y año actual
  $Mes = date("m");
  $Año = date("Y");
-//operaciones de resta 
+
 $Resultado = $Año - $EntradaA;
-//comparar para saber si ya cumplio este año
+
 if ($EntradaM >= $Mes) {
     $Resultado--;
-    //impresion con un poco formato 
 }echo("<h1>Tu Edad es; $Resultado Años Cumplidos </h1> ");
         break;
     case 'FEBRERO':
