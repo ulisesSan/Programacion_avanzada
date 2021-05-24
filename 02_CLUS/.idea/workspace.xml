@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a70e7abb-4e83-48c7-9289-ff2b54cc20eb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/F83_CLUS(equipo)/Bade de datos/f83_15.sql" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/F83_CLUS(equipo)/Doc/.~lock.proyecto.docx#" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/F83_CLUS(equipo)/Doc/proyecto.docx" beforeDir="false" afterPath="$PROJECT_DIR$/F83_CLUS(equipo)/Doc/proyecto.docx" afterDir="false" />
@@ -59,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621829616594</updated>
-      <workItem from="1621829624111" duration="3941000" />
+      <workItem from="1621829624111" duration="4558000" />
     </task>
     <servers />
   </component>

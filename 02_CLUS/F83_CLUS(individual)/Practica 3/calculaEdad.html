@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--para llamar estilos-->
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <!--utilizar la ñ-->
+    <meta charset="UTF8">
+    <title>Años</title>
+</head>
+    <body>
+        <!--Requerir datos segun la etiqueta form y enviandolos por post para su uso en php-->   
+        <div>
+        <form action="edad.php" method="POST">
+            <label class="li">Ingresa tu año de nacimiento</label>
+            <input name="tiempo" type="number" min="1921" max="2021" value="">
+           
+        </div>
+        <p></p>
+        <!--Se pide el mes con las mismas caracteristicas que el anterior metodo-->
+            <div<label class="li"> Escribe tu mes de nacimiento </label>
+
+            <input type="text" name="Mes" maxlength="10" value=""> 
+
+            <p></p>
+<!--boton para enviar los datos a php para obtener respuesta -->
+            <input class="center" type="submit" name="submit" value="Calcular">
+        </form>
+        
+
+    </body>
+</html>
